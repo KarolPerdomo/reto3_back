@@ -79,11 +79,11 @@ public class Room implements Serializable {
      /**
      * relacion room
      */
-     @OneToMany(cascade = {CascadeType.PERSIST},mappedBy = "rooms")
+     @OneToMany(cascade = {CascadeType.PERSIST},mappedBy = "room")
       /**
      * relacion room and client
      */
-    @JsonIgnoreProperties({"rooms", "client"})
+    @JsonIgnoreProperties({"room", "client"})
       /**
      * mensaje
      */
@@ -92,8 +92,8 @@ public class Room implements Serializable {
      /**
      * Relacion room
      */ 
-    @OneToMany(cascade = {CascadeType.PERSIST},mappedBy = "rooms")
-    @JsonIgnoreProperties({"rooms", "client"})
+    @OneToMany(cascade = {CascadeType.PERSIST},mappedBy = "room")
+    @JsonIgnoreProperties({"room", "client"})
      /**
      * private reservations
      */
