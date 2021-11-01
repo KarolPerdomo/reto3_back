@@ -1,18 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
-package usa.ciclo3.reto.ProyectoH.Repository.Crud;
+package usa.ciclo3.reto.ProyectoHotel.Repository.Crud;
 
 import java.util.Date;
 import java.util.List;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
-import usa.ciclo3.reto.ProyectoH.Modelo.Reservation;
+import usa.ciclo3.reto.ProyectoHotel.Modelo.Reservation;
 
 /**
  *
- * @author Andy
+ * @author Karol
  */
 public interface ReservationCrud extends CrudRepository<Reservation, Integer> {
 

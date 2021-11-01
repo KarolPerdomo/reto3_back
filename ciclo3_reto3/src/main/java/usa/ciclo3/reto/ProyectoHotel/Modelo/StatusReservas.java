@@ -1,12 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package usa.ciclo3.reto.ProyectoH.Modelo;
+package usa.ciclo3.reto.ProyectoHotel.Modelo;
 
 /**
  *
- * @author Andy
+ * @author Karol
  */
 public class StatusReservas {
 

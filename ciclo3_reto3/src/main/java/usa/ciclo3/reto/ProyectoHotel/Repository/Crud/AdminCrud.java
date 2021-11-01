@@ -1,15 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
-package usa.ciclo3.reto.ProyectoH.Repository.Crud;
+package usa.ciclo3.reto.ProyectoHotel.Repository.Crud;
 
 import org.springframework.data.repository.CrudRepository;
-import usa.ciclo3.reto.ProyectoH.Modelo.Admin;
+import usa.ciclo3.reto.ProyectoHotel.Modelo.Admin;
 
 /**
  *
- * @author Andy
+ * @author Karol
  */
 public interface AdminCrud extends CrudRepository<Admin, Integer> {
 

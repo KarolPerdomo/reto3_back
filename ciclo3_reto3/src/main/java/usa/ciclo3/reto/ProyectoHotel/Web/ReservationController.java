@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package usa.ciclo3.reto.ProyectoH.Web;
+package usa.ciclo3.reto.ProyectoHotel.Web;
 
 import java.util.List;
 import java.util.Optional;
@@ -19,14 +15,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
-import usa.ciclo3.reto.ProyectoH.Modelo.Reservation;
-import usa.ciclo3.reto.ProyectoH.Modelo.StatusReservas;
-import usa.ciclo3.reto.ProyectoH.Modelo.TopClient;
-import usa.ciclo3.reto.ProyectoH.Service.ReservationService;
+import usa.ciclo3.reto.ProyectoHotel.Modelo.Reservation;
+import usa.ciclo3.reto.ProyectoHotel.Modelo.StatusReservas;
+import usa.ciclo3.reto.ProyectoHotel.Modelo.TopClient;
+import usa.ciclo3.reto.ProyectoHotel.Service.ReservationService;
 
 /**
  *
- * @author Andy
+ * @author Karol
  */
 @RestController
 @RequestMapping("/api/Reservation") //api/Reservation/all

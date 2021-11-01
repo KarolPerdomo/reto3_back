@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package usa.ciclo3.reto.ProyectoH.Repository;
+package usa.ciclo3.reto.ProyectoHotel.Repository;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -10,14 +6,14 @@ import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import usa.ciclo3.reto.ProyectoH.Modelo.Client;
-import usa.ciclo3.reto.ProyectoH.Modelo.Reservation;
-import usa.ciclo3.reto.ProyectoH.Modelo.TopClient;
-import usa.ciclo3.reto.ProyectoH.Repository.Crud.ReservationCrud;
+import usa.ciclo3.reto.ProyectoHotel.Modelo.Client;
+import usa.ciclo3.reto.ProyectoHotel.Modelo.Reservation;
+import usa.ciclo3.reto.ProyectoHotel.Modelo.TopClient;
+import usa.ciclo3.reto.ProyectoHotel.Repository.Crud.ReservationCrud;
 
 /**
  *
- * @author Andy
+ * @author Karol
  */
 @Repository
 public class ReservationRepository {

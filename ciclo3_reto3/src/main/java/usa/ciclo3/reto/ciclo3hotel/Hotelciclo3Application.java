@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
-@EntityScan(basePackages = {"usa.ciclo3.reto.ProyectoH.Modelo"})
+@EntityScan(basePackages = {"usa.ciclo3.reto.ProyectoHotel.Modelo"})
 @SpringBootApplication
 public class Hotelciclo3Application {
 
